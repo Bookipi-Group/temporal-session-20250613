@@ -16,8 +16,11 @@
     "node": ">= 22.0.0",
     "yarn": ">= 1.0.0"
   },
-  "dependencies": {
+  "scripts": {
+    "dev1": "turbo run dev --filter=@bookipi/temporal-session-20250613-1",
+    "dev2": "turbo run dev --filter=@bookipi/temporal-session-20250613-2"
   },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.15.31",
     "prettier": "^3.5.3",

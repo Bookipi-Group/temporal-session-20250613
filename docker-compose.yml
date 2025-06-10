@@ -2,13 +2,13 @@ services:
   temporal:
     image: temporalio/auto-setup:1.22.2
     ports:
-      - '7233:7233'
+      - "7233:7233"
     environment:
-      - 'DB=postgresql'
-      - 'DB_PORT=5432'
-      - 'POSTGRES_USER=temporal'
-      - 'POSTGRES_PWD=temporal'
-      - 'POSTGRES_SEEDS=postgres'
+      - "DB=postgresql"
+      - "DB_PORT=5432"
+      - "POSTGRES_USER=temporal"
+      - "POSTGRES_PWD=temporal"
+      - "POSTGRES_SEEDS=postgres"
     restart: unless-stopped
     depends_on:
       - postgres
@@ -16,7 +16,7 @@ services:
   postgres:
     image: postgres:13
     ports:
-      - '5432:5432'
+      - "5432:5432"
     environment:
       - POSTGRES_USER=temporal
       - POSTGRES_PASSWORD=temporal
@@ -28,7 +28,7 @@ services:
   temporal-ui:
     image: temporalio/ui:2.29.2
     ports:
-      - '8088:8080'
+      - "8088:8080"
     environment:
       - TEMPORAL_ADDRESS=temporal:7233
       - TEMPORAL_GRPC_ENDPOINT=temporal:7233

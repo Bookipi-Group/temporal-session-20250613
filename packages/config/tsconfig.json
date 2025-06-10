@@ -4,9 +4,6 @@
     "noEmit": true,
     "skipLibCheck": true
   },
-  "include": [
-    "esbuild/**/*",
-    "typescript/**/*"
-  ],
+  "include": ["esbuild/**/*", "typescript/**/*"],
   "exclude": ["node_modules"]
 }
