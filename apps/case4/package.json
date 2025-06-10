@@ -1,0 +1,15 @@
+{
+  "name": "@bookipi/temporal-session-20250613-4",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "@bookipi/temporal-session-config": "*",
+    "@temporalio/client": "^1.11.8",
+    "@temporalio/common": "^1.11.8",
+    "@temporalio/worker": "^1.11.8",
+    "express": "^5.1.0"
+  }
+}
