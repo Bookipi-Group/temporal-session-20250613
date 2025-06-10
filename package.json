@@ -18,7 +18,8 @@
   },
   "scripts": {
     "dev1": "turbo run dev --filter=@bookipi/temporal-session-20250613-1",
-    "dev2": "turbo run dev --filter=@bookipi/temporal-session-20250613-2"
+    "dev2": "turbo run dev --filter=@bookipi/temporal-session-20250613-2",
+    "dev3": "turbo run dev --filter=@bookipi/temporal-session-20250613-3"
   },
   "dependencies": {},
   "devDependencies": {
