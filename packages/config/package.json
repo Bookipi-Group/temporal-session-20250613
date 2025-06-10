@@ -1,0 +1,12 @@
+{
+  "name": "@bookipi/temporal-session-config",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {},
+  "main": "index.ts",
+  "devDependencies": {
+    "fast-glob": "^3.3.1"
+  }
+}

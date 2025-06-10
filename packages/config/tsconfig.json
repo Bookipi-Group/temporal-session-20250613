@@ -1,0 +1,12 @@
+{
+  "extends": "./typescript/tsconfig.node.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "esbuild/**/*",
+    "typescript/**/*"
+  ],
+  "exclude": ["node_modules"]
+}

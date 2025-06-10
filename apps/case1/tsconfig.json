@@ -1,0 +1,9 @@
+{
+  "extends": "@bookipi/temporal-session-config/typescript/tsconfig.node.json",
+  "compilerOptions": {
+    "outDir": "../../dist/apps/case1",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*", "./package.json"],
+  "exclude": ["node_modules", "src/**/*.test.ts"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@bookipi/temporal-session-20250613",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "author": {
+    "name": "gerry",
+    "email": "gerry@bookipi.com"
+  },
+  "engines": {
+    "node": ">= 22.0.0",
+    "yarn": ">= 1.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.31",
+    "prettier": "^3.5.3",
+    "tsx": "^4.6.2",
+    "typescript": "^5.8.3",
+    "turbo": "^1.13.4"
+  },
+  "packageManager": "yarn@1.22.19",
+  "volta": {
+    "node": "22.13.0",
+    "yarn": "1.22.19"
+  }
+}

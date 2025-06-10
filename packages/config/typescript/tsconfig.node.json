@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2021",
+    "composite": true,
+    "lib": ["dom", "dom.iterable", "es2021", "es2021.promise"],
+    "allowJs": true,
+    "strict": false,
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "diagnostics": true,
+    "extendedDiagnostics": true
+  }
+}
